@@ -36,14 +36,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="UPL-xT-nTw">
                                 <rect key="frame" x="88" y="532" width="199" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGT-4K-CKz">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGT-4K-CKz">
                                         <rect key="frame" x="0.0" y="0.0" width="93" height="30"/>
                                         <state key="normal" title="Photo Library"/>
                                         <connections>
                                             <action selector="libraryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uJ-Q9-oC7"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zml-mS-9w8">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zml-mS-9w8">
                                         <rect key="frame" x="123" y="0.0" width="76" height="30"/>
                                         <state key="normal" title="Take Photo"/>
                                         <connections>
